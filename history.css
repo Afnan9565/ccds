@@ -1,0 +1,147 @@
+/* Importing the fonts */
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Neonderthaw&display=swap");
+/* Styling the navbar */
+.navbar {
+  display: flex;
+  width: 95%;
+  margin: auto;
+  font-family: "Baloo Bhai 2", cursive;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding-left: 2rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+}
+.nav1 {
+  display: flex;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+}
+nav ul li {
+  list-style: none;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.nav-img {
+  height: 4rem;
+  width: 4rem;
+}
+.no-margin {
+  margin: 0px;
+  margin-left: 1rem;
+  font-size: 2rem;
+  font-family: "Baloo Bhai 2", "cursive";
+}
+.nav-link {
+  text-decoration: none !important;
+  color: mediumseagreen !important;
+  font-size: 1.2rem !important;
+  padding: 0px 0px !important;
+}
+
+.submenu-1{
+  display: none;
+  background-color: black;
+}
+.nav-item-sub{
+  font-size: 0.2rem !important;
+  text-decoration: none;
+  color: white;
+}
+.nav-link:hover {
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: black;
+}
+.ab-link:hover .no-margin{
+  display: block !important;
+  position: absolute !important;
+  color: red;
+}
+  /*Other contents start here*/
+  .container {
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    padding: 1rem;
+    width: 95%;
+    margin: auto;
+    margin-top: 4rem;
+    display: inline-flex;
+    justify-content: space-between;
+  }
+  .history{
+    width: 85%;
+    margin: auto;
+    margin-top: 3rem;
+    
+  }
+  .hisgrid{
+      display: flex;
+      grid-template-columns: 2fr 1fr;
+  }
+  .his-head{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+  }
+  .para{
+      font-size: 1.2rem;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      color: grey;
+      text-align: justify;
+      display: inline;
+  }
+  .bishopimg{
+      width: 300px;
+      height: 300px;
+      margin-left: 1rem;
+  }
+  .aim-head{
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .aim{
+    margin-top: 3rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+.note{
+  margin-left: 3%;
+  margin-top: 1rem;
+}
+.aim-items{
+    display: flex;
+    align-items: center;
+    
+}
+.aims{
+  border: 1px solid grey;
+  padding: 12px;
+  border-radius: 4px;
+  width: 85%;
+  margin: auto;
+}
+.arrow{
+  margin-right: 1rem;
+  width: 1.5%;
+}
+.left{
+  text-align: left !important;
+}
+.bullet{
+  margin: 0px;
+}
+.btn-group{
+  margin:auto;
+  width: 30%;
+}

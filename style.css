@@ -1,0 +1,175 @@
+/* Importing the fonts */
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Neonderthaw&display=swap");
+
+body {
+  margin: 0;
+  padding: 4px;
+  background: #b3ffab; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #12fff7,
+    #b3ffab
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #12fff7,
+    #b3ffab
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+/* Styling the navbar */
+.navbar {
+  display: flex;
+  width: 95%;
+  margin: auto;
+  font-family: "Baloo Bhai 2", cursive;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding-left: 2rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+}
+.nav1 {
+  display: flex;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+}
+nav ul li {
+  list-style: none;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.nav-img {
+  height: 4rem;
+  width: 4rem;
+}
+.no-margin {
+  margin: 0px;
+  margin-left: 1rem;
+  font-size: 2rem;
+  font-family: "Baloo Bhai 2", "cursive";
+}
+.nav-link {
+  text-decoration: none !important;
+  color: mediumseagreen !important;
+  font-size: 1.2rem !important;
+  padding: 0px 0px !important;
+}
+
+.submenu-1{
+  display: none;
+  background-color: black;
+}
+.nav-item-sub{
+  font-size: 0.2rem !important;
+  text-decoration: none;
+  color: white;
+}
+.nav-link:hover {
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: black;
+}
+.ab-link:hover .no-margin{
+  display: block !important;
+  position: absolute !important;
+  color: red;
+}
+/*Other contents start here*/
+.container-me{
+  background: rgba(255, 255, 255, 0.25) !important;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37) !important;
+  backdrop-filter: blur(4px) !important;
+  -webkit-backdrop-filter: blur(4px) !important;
+  border-radius: 10px !important;
+  border: 1px solid rgba(255, 255, 255, 0.18) !important;
+  padding: 1rem !important;
+  width: 95% !important;
+  margin: auto !important;
+  margin-top: 20rem !important;
+  display: inline-flex !important;
+  justify-content: space-between !important;
+}
+/* Dynamic Text */
+.banner-area {
+  width: 40%;
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  height: 8rem;
+  font-family: cursive;
+}
+.dynamic-text li {
+  list-style: none;
+  font-size: 2.8rem;
+  color: coral;
+  font-family: "Baloo Bhai 2", "cursive";
+  font-weight: 600;
+  display: inline;
+  display: none;
+}
+.edit {
+  color: coral;
+}
+/* About us */
+.aboutus {
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  width: 50%;
+  padding: 1rem;
+}
+.about-head {
+  color: rgb(226, 94, 89);
+  font-family: "Baloo Bhai 2", "cursive";
+  text-align: center;
+}
+.para {
+  font-family: "Baloo Bhai 2", "cursive";
+  font-size: 1.3rem;
+  margin: 0;
+  text-align: center;
+}
+.about-statistics {
+  color: rgb(226, 94, 89);
+  font-family: "Baloo Bhai 2", "cursive";
+  text-align: center;
+  font-size: 3rem;
+}
+.statistics {
+  background: rgba(255, 255, 255, 0.35);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(10.5px);
+  -webkit-backdrop-filter: blur(10.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  margin-top: 1rem;
+}
+.items {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.stat-img {
+  width: 30%;
+  margin-left: 33%;
+}
+.line-same{
+  display: inline-block;
+  text-align: center;
+}
+.m-left{
+  margin-left: 45%;
+}
